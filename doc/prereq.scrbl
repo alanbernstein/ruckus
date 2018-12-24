@@ -5,7 +5,7 @@
 To use Ruckus, you will need:
 
 @itemlist[
-  @item{A computer running Linux (preferably) or Mac OS X (if you are brave).}
+  @item{A computer running Linux (preferably).}
   @item{A reasonably beefy GPU, ideally from Nvidia.}
   @item{A recent version of @hyperlink["https://racket-lang.org/"]{Racket} ---
         say, at least 6.0.}
@@ -16,9 +16,10 @@ To use Ruckus, you will need:
 @section{Operating System}
 
 Ruckus is developed and tested on Linux.  It should also work on other
-Unix-like operating systems, such as Mac OS X or FreeBSD, but you may encounter
+Unix-like operating systems, such as FreeBSD, but you may encounter
 surprises.  @bold{I'd be interested in hearing about any problems you
-encounter.}
+encounter.}  With OpenGL no longer supported on Mac, Ruckus will likely 
+not work without the assistance of a contributor with access to a Mac.
 
 There's no clear technical reason why Ruckus wouldn't work on Microsoft
 Windows, but:
